@@ -54,7 +54,14 @@ body:
       label: What do you want to eat?
       multiple: true
       options:
-        - burger  
+        - burger
+  - type: dropdown
+    id: location
+    attributes:
+      label: What do you want to location?
+      multiple: true
+      options:
+        - Thailand    
   - type: textarea
     id: logs
     attributes:
