@@ -48,6 +48,13 @@ body:
         - Chrome
         - Safari
         - Microsoft Edge
+  - type: dropdown
+    id: foods
+    attributes:
+      label: What do you want to eat?
+      multiple: true
+      options:
+        - burger  
   - type: textarea
     id: logs
     attributes:
